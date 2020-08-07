@@ -1,0 +1,11 @@
+# If using for demo, apply this script to create all Tekton resources
+
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- pipeline/pipeline.yaml
+- pipelineresources/git.yaml
+- pipelineresources/image.yaml
+- tasks/kaniko.yaml
+- tasks/kubectl.yaml

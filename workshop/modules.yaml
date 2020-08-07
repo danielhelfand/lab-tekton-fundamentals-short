@@ -1,12 +1,31 @@
 modules:
     workshop-overview:
-        name: Workshop Overview
-        exit_sign: Setup Environment
-    setup-environment:
-        name: Setup Environment
-        exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
+        name: Tekton, Kubernetes, and CI/CD
+        exit_sign: Overview of Tekton Resources
+    exercises/01-tekton-overview:
+        name: Tekton Custom Resource Definitions 
+        exit_sign: Build Task
+    exercises/02-build-task:
+        name: Build Task
+        exit_sign: Deploy Task
+    exercises/03-deploy-task:
+        name: Deploy Task
+        exit_sign: ServiceAccounts
+    exercises/04-serviceaccount:
+        name: ServiceAccounts
+        exit_sign: PipelineResources
+    exercises/05-pipelineresources:
+        name: PipelineResources
+        exit_sign: Create a Pipeline
+    exercises/06-pipeline:
+        name: Create a Pipeline
+        exit_sign: Create a PipelineRun
+    exercises/07-pipelinerun:
+        name: Create a PipelineRun
+        exit_sign: Verify Deployment
+    exercises/08-verify-deployment:
+        name: Verify Deployment
+        exit_sign: Workshop Summary
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop

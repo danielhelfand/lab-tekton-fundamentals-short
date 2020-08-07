@@ -1,10 +1,11 @@
 apiVersion: training.eduk8s.io/v1alpha1
 kind: TrainingPortal
 metadata:
-  name: lab-markdown-sample
+  name: lab-tekton-fundamentals
 spec:
   workshops:
-  - name: lab-markdown-sample
-    capacity: 1
+  - name: lab-tekton-fundamentals
+    capacity: 10
+    reserved: 1
     expires: 60m
-    orphaned: 5m
+    orphaned: 15m

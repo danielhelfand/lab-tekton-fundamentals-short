@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: go-web-server-ingress
+spec:
+  rules:
+  - host: ${SESSION_NAMESPACE}-app.${INGRESS_DOMAIN}
+    http:
+      paths:
+      - path: "/"
+        backend:
+          serviceName: go-web-server-service
+          servicePort: 8080
