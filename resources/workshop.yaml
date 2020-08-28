@@ -13,9 +13,9 @@ spec:
   - tools
   content:
     image: quay.io/eduk8s-tests/lab-tekton-fundamentals-short:latest
-  duration: 30m
+  duration: 45m
   session:
-    budget: custom
+    budget: xlarge
     applications:
       console:
         enabled: false
