@@ -1,4 +1,4 @@
-In order to connect the `Pipeline` you will create to `PipelineResources`, you will need to 
+In order to connect the `Pipeline` to `PipelineResources`, you will need to 
 create two `PipelineResources`.
 
 The first is a `PipelineResource` named `go-web-server-git`. This `PipelineResource` 

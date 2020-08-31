@@ -24,8 +24,8 @@ below, when you run it, it will execute in the lower terminal:
 tkn version
 ```
 
-Where the command is executed is denoted by the number with the running stick figure icon. If there is a 1, the command will 
-execute in the top terminal. If there is a 2, the command will execute in the bottom terminal. 
+In which terminal the command is executed is denoted by a note above the command to execute. Terminal 1 is the upper terminal, and 
+terminal 2 is the lower terminal.
 
 Before beginning the workshop, execute the following commands to clear your terminals:
 

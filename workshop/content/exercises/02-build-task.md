@@ -1,6 +1,8 @@
 Now that you have an understanding of the basics of a `Task` and a `TaskRun`, 
 this next section will allow you to create `Tasks` that can be used as part 
-of a `Pipeline`. The `Pipeline` you will create will build an application from 
+of a `Pipeline`. 
+
+The `Pipeline` you will create will build an application from 
 a Dockerfile, push that resulting container image to an image registry, and deploy 
 the pushed image to the namespace you are currently using.
 

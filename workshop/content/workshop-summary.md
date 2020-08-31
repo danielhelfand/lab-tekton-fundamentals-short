@@ -1,4 +1,4 @@
-Congratulations on running your first Tekton `Pipeline`! Any feedback about your experience 
+Thanks for taking the time to learn about the Tekton project! Any feedback about your experience 
 going through this tutorial is greatly appreciated and contributions/issues to improve the 
 tutorial can be submitted to the [GitHub for the tutorial](https://github.com/eduk8s-tests/lab-tekton-fundamentals).
 
