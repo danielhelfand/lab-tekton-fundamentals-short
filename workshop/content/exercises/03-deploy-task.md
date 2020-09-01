@@ -48,7 +48,7 @@ spec:
         - "$(params.path)"
 ```
 
-Once again, this `Task` has `PipelineResources` that it requires in order to be ran. This `Task` requires a `PipelineResource` 
+Once again, this `Task` has `PipelineResources` that it requires in order to be run. This `Task` requires a `PipelineResource` 
 of `type: git` and another of `type: image`, but this isn't exactly the same as `build-docker-image-from-git-source`. 
 
 The major difference is that the `image` `PipelineResource` is an `input` `PipelineResource` this time instead of an `output` like 

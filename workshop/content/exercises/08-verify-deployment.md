@@ -1,13 +1,6 @@
 You have now successfully used a `Pipeline` to deploy a container-hosted application
 to your Kubernetes cluster. 
 
-To verify a successful deployment of the application from `go-web-server-pipeline`, create 
-an `Ingress` to create an endpoint to access the application:
-
-```execute-1
-kubectl apply -f /home/eduk8s/tekton/ingress/ingress.yaml
-```
-
 Run the following command to ping the application to get back a response:
 
 ```execute-1
